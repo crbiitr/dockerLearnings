@@ -12,6 +12,6 @@ docker build .
 docker run <container_id>
 
 # Image tagging
-docker build -r <docker_id>/<project_name>:<version>
+docker build -t <docker_id>/<project_name>:<version> .
 
-example: docker build -r crbiitr/redis:latest
+example: docker build -t crbiitr/redis:latest .
