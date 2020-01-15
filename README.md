@@ -15,3 +15,6 @@ docker run <container_id>
 docker build -t <docker_id>/<project_name>:<version> .
 
 example: docker build -t crbiitr/redis:latest .
+
+# Run docker with tagging and port mapping
+example docker run -p 9081:9081 crbiitr/nodejsapp
